@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageFragment">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Now Playing"
+        android:layout_marginTop="56dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="34sp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="64dp"
+        android:text="Talk Me Down"
+        android:fontFamily="@font/abeezee_italic"
+        android:textColor="@color/white"
+        android:layout_gravity="bottom"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="37dp"
+        android:text="Blue Neighbourhood"
+        android:fontFamily="@font/abeezee_italic"
+        android:textColor="@color/white"
+        android:layout_gravity="bottom"
+        />
+
+</FrameLayout>
